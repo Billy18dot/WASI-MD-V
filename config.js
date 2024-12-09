@@ -45,7 +45,7 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "true";
 (global.disablegroup = process.env.DISABLE_GROUPS || "false"),
   (global.MsgsInLog = process.env.MSGS_IN_LOG || "false");
-global.userImages = process.env.USER_IMAGES || "";
+global.userImages = process.env.USER_IMAGES || "https://i.imgur.com/4Js8Iki.jpeg";
 global.waPresence = process.env.WAPRESENCE || "";
 global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -72,7 +72,7 @@ module.exports = {
   packname: process.env.PACK_NAME || "FDM",
   botname: process.env.BOT_NAME || "FOREIGNER-𝐌𝐃-𝐕2",
   ownername: process.env.OWNER_NAME || "Mr-JONES",
-  errorChat: process.env.ERROR_CHAT || "27781242411",
+  errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
